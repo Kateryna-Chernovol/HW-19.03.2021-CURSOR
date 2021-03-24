@@ -35,7 +35,7 @@ public class Main {
          in this array. (Example -  array{1,2,4,1} -> avg = 2)
          */
         int[] avarArr = {3, 9, 2, 6};
-        int sumAvarArr = 0;
+        double sumAvarArr = 0;
         for (int i = 0; i < avarArr.length; i++) {
             sumAvarArr += avarArr[i];
         }
