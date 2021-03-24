@@ -39,7 +39,7 @@ public class Main {
         for (int i = 0; i < avarArr.length; i++) {
             sumAvarArr += avarArr[i];
         }
-        int avarageAvarArr = sumAvarArr / avarArr.length;
+        double avarageAvarArr = sumAvarArr / avarArr.length;
         System.out.println("Task #3");
         System.out.println("Average of a list of numbers {3, 9, 2, 6} is: "
                 + avarageAvarArr + "\n");
